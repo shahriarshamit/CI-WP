@@ -1,0 +1,143 @@
+        Fuseki template structure        
+
+        1. General template structure
+        
+        index.php, page.php, single.php, archive.php, search.php and 404.php in fuseki folder are general templates that are made up with view-top.php output, view layout and view-bottom.php output, view layout is left content right sidebar layout or left sidebar right content layout. 
+
+        chart of general templates structure,
+        
+        .--------------------------------------.
+        |                                      |
+        |           view-top.php               |
+        |                                      |
+        |--------------------------------------|
+        |                                      |
+        |   View layout(content and sidebar)   |
+        |                                      |
+        |--------------------------------------|
+        |                                      |
+        |           view-bottom.php            |
+        |                                      |
+        .--------------------------------------.
+        
+
+        2. view-top.php structure
+        
+        view-top.php includes header-top.php, header.php, navigation-menu.php and content-top.php in fuseki/structure-parts folder, header-top.php outputs site logo, register, sign in/out buttons and site search, header.php outputs site hero slides and site hero images, navigation-menu.php outputs website navigation menu, content-top.php outputs Leaderboard ADs or empty if there is no Leaderboard ADs. view-top.php includes header.php only when template file is index.php or home.php.
+        
+        Chart of view-top.php structure,
+        
+        .--------------------------------------.
+        |                                      |
+        |           header-top.php             |
+        |   (Site logo, sign in, sign out)     |
+        |                                      |
+        |--------------------------------------|
+        |                                      |
+        |           header.php                 |
+        |   (Hero slides and hero images for   |
+        |    template index.php or home.php)   | 
+        |                                      |
+        |--------------------------------------|
+        |                                      |
+        |         navigation-menu.php          |
+        |  (Site home, page, post and others)  |
+        |                                      |
+        |--------------------------------------|
+        |                                      |
+        |           content-top.php            |
+        |   (Leaderboard ADs, empty content)   |
+        |                                      |
+        .--------------------------------------.
+        
+        
+        3. view-bottom.php structure
+        
+        view-bottom.php includes content-bottom.php, footer.php and disclaimer.php, content-bottom.php outputs message, of other information, for example, CodeIgniter output, chart of view-bottom.php structure,
+        
+        .--------------------------------------.
+        |                                      |
+        |          content-bottom.php          |
+        |    (Messages, CodeIgniter output,    |
+        |           and others)                |
+        |                                      |
+        |--------------------------------------|
+        |                                      |
+        |           footer.php                 |
+        |                                      |
+        |--------------------------------------|
+        |                                      |
+        |           disclaimer.php             |
+        |   (Copyright, company disclaimer)    |
+        |                                      |
+        .--------------------------------------.
+        
+        
+        4. Page template and single post template structure       
+        
+        Chart of page template and single post template structure,
+        
+        .--------------------------------------.
+        |                                      |
+        |           template-top.php           |
+        |      (view-top.php and HTML code)    |
+        |                                      |
+        |--------------------------------------|
+        |                                      |
+        |      Page content or post content    |
+        |                                      |
+        |--------------------------------------|
+        |                                      |
+        |          template-bottom.php         |
+        |    (Sidebar and view-bottom.php)     |
+        |                                      |
+        .--------------------------------------.
+
+        You can assign a page template to a WordPress page from page attributes when editing a page, a page template can be used by multiple pages, naming a new page template file with 
+
+            page-[an_effective_file_name].php
+        
+        or using slug to connect a WordPress page to template file automaticall with     
+            
+            page-$slug.php           // $slug is a slug value of the page
+        
+        A single post template can be used by multiple posts or custom post types, you can use post type to connect single post to single post template automaticall with
+        
+            single-$posttype.php    // $posttype is a post type value of single post
+            
+        or using post type and slug for a specific single post with 
+        
+            single-$posttype-$slug.php      // $slug is a slug value of single post        
+        
+        5. Sidebar A structure
+        
+        Banner ADs is a WordPress text widget, you can add HTML code of Banner ADs to a text widget or wrapped PHP code of Banner ADs with <code>[cw] and [/cw]</code> in a text widget, default Fuseki Widgets include RECENT POSTS, RECENT COMMENTS, CATEGORIES, EVENT CATEGORIES, FOLLOW AND LIKE US.
+        
+        Chart of sidebar A structure,
+        
+        .--------------------------------------.
+        |                                      |
+        |             Banner ADs               |
+        |                                      |
+        |--------------------------------------|
+        |                                      |
+        |              Widgets                 |
+        |                                      |
+        .--------------------------------------.
+        
+        
+        6. Sidebar B structure
+        
+        Chart of sidebar B structure,
+        
+        .--------------------------------------.
+        |                                      |
+        |             Widgets                  |
+        |                                      |
+        |--------------------------------------|
+        |                                      |
+        |            Banner ADs                |
+        |                                      |
+        .--------------------------------------.
+        
+        

@@ -1,0 +1,337 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodeo Admin UI\n"
+"POT-Creation-Date: 2017-05-04 19:02+0200\n"
+"PO-Revision-Date: 2016-05-24 08:31+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: kodeo-admin-ui.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/class-admin-ui-menu.php:28 classes/class-admin-ui-toolbar.php:13
+msgid "View Website"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:31
+msgctxt "Option section name"
+msgid "Sidebar Menu Settings"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:42
+msgctxt "Option section name"
+msgid "Toolbar Settings"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:54
+msgctxt "Option section name"
+msgid "Other Settings"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:93
+msgctxt "Option Title"
+msgid "Auto Collapse Submenus"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:95
+#: classes/class-admin-ui-options.php:128
+#: classes/class-admin-ui-options.php:136
+#: classes/class-admin-ui-options.php:144
+#: classes/class-admin-ui-options.php:152
+#: classes/class-admin-ui-options.php:160
+#: classes/class-admin-ui-options.php:169
+#: classes/class-admin-ui-options.php:177
+#: classes/class-admin-ui-options.php:193
+#: classes/class-admin-ui-options.php:202
+msgctxt "Option Value"
+msgid "Enable"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:96
+msgid ""
+"By Theme default submenus are expanded on click. Activate this option if "
+"you prefer auto collapse submenus."
+msgstr ""
+
+#: classes/class-admin-ui-options.php:101
+msgctxt "Option Title"
+msgid "Menu Icons"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:103
+#: classes/class-admin-ui-options.php:111
+#: classes/class-admin-ui-options.php:119
+msgctxt "Option Value"
+msgid "Show"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:104
+msgid ""
+"Menu Icons are hidden by default. Activate this option if you want display "
+"them."
+msgstr ""
+
+#: classes/class-admin-ui-options.php:109
+msgctxt "Option Title"
+msgid "Item Counters"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:112
+msgid ""
+"Item Counters are displayed by default. Deactivate this option if you want "
+"hide them."
+msgstr ""
+
+#: classes/class-admin-ui-options.php:117
+msgctxt "Option Title"
+msgid "Menu Separators"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:120
+msgid ""
+"Menu Separators are displayed by default. Deactivate this option if you "
+"want hide them."
+msgstr ""
+
+#: classes/class-admin-ui-options.php:126
+msgctxt "Option Title"
+msgid "Fixed Admin Toolbar"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:129
+msgid "Activate this option if you want the toolbar stay fixed on top."
+msgstr ""
+
+#: classes/class-admin-ui-options.php:134
+msgctxt "Option Title"
+msgid "Search Field in Toolbar"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:137
+msgid ""
+"For cleaner body content the search field is relocated into the toolbar. "
+"Deactivate this option if you want to show it in the body content again."
+msgstr ""
+
+#: classes/class-admin-ui-options.php:142
+msgctxt "Option Title"
+msgid "Notifications in Toolbar"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:145
+msgid ""
+"For cleaner body content notifications are located into a toolbar "
+"dropdown. Deactivate this option if you want to show them in the body "
+"content again."
+msgstr ""
+
+#: classes/class-admin-ui-options.php:150
+msgctxt "Option Title"
+msgid "Sticky Editor Toolbar"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:153
+msgid ""
+"Activate this option if you want to have sticky action buttons on top of "
+"the Edit page,"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:158
+msgctxt "Option Title"
+msgid "Help and Screen Options as Modal"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:161
+msgid ""
+"Depending on your screen size it might be better to display the screen "
+"options and help content within a modal."
+msgstr ""
+
+#: classes/class-admin-ui-options.php:167
+msgctxt "Option Title"
+msgid "Reduce columns on Dashboard"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:170
+msgid ""
+"Depending on your Dashboard Widgets it might be useful to have less "
+"columns. This option limits the Dashboard columns from 4 to 2 for screen "
+"sizes with min. 1500px."
+msgstr ""
+
+#: classes/class-admin-ui-options.php:175
+msgctxt "Option Title"
+msgid "Reduce columns on Widget Page"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:178
+msgid ""
+"For better usability on Notebook and Tablet screens it is useful to reduce "
+"the Widget Holder columns from 2 to 1. This option affects screen sizes "
+"between 1250px and 1680px."
+msgstr ""
+
+#: classes/class-admin-ui-options.php:183
+msgctxt "Option Title"
+msgid "Drag-And-Drop Sorting of Postboxes"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:185
+msgctxt "Option Value"
+msgid "Disable"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:186
+msgid ""
+"By WordPress default postboxes can be reordered by drag and drop. Activate "
+"this option in order to disable this behaviour."
+msgstr ""
+
+#: classes/class-admin-ui-options.php:191
+msgctxt "Option Title"
+msgid "Use Mini Toolbar on the Front End"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:194
+msgid ""
+"Activate this option if you prefer a mini sized toolbar at the front end."
+msgstr ""
+
+#: classes/class-admin-ui-options.php:200
+msgctxt "Option Title"
+msgid "Admin Theme"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:208
+msgctxt "Option Title"
+msgid " -> Color Scheme -Select list-"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:210
+msgctxt "Option Value"
+msgid "Dropdown"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:216
+msgctxt "Option Title"
+msgid "Admin CSS"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:221
+msgctxt "Option Title"
+msgid "Login CSS"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:226
+msgctxt "Option Title"
+msgid "Login Logo"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:465
+#: classes/class-admin-ui-options.php:475
+#: classes/class-admin-ui-options.php:478
+msgid "Select image"
+msgstr ""
+
+#: classes/class-admin-ui-options.php:466
+msgid "Remove featured image"
+msgstr ""
+
+#: classes/class-admin-ui-pages.php:25
+msgctxt "Page title in the menu"
+msgid "Admin UI"
+msgstr ""
+
+#: classes/class-admin-ui-pages.php:26
+msgctxt "Option tab title"
+msgid "Theme Options"
+msgstr ""
+
+#: classes/class-admin-ui-pages.php:27 classes/class-admin-ui-pages.php:36
+#: classes/class-admin-ui-pages.php:48
+msgctxt "Option page title"
+msgid "Kodeo Admin UI"
+msgstr ""
+
+#: classes/class-admin-ui-pages.php:35
+msgctxt "Option tab title"
+msgid "Customization"
+msgstr ""
+
+#: classes/class-admin-ui-pages.php:47
+msgctxt "Option tab title"
+msgid "Post Sorting"
+msgstr ""
+
+#: classes/class-admin-ui-toolbar.php:19
+msgid "Admin"
+msgstr ""
+
+#: classes/class-admin-ui.php:32
+#, php-format
+msgid "Kodeo Admin UI requires %s %s or higher."
+msgstr ""
+
+#: classes/class-admin-ui.php:136
+msgid "Screen Options"
+msgstr ""
+
+#: classes/class-admin-ui.php:137
+msgid "Help"
+msgstr ""
+
+#: classes/class-admin-ui.php:138
+msgid "Search"
+msgstr ""
+
+#: classes/class-admin-ui.php:178
+msgctxt "Login Screen Placeholder"
+msgid "Username or Email Address"
+msgstr ""
+
+#: classes/class-admin-ui.php:179
+msgctxt "Login Screen Placeholder"
+msgid "Password"
+msgstr ""
+
+#: templates/editor-toolbar.php:3
+msgid "Publish"
+msgstr ""
+
+#: templates/editor-toolbar.php:4
+msgid "Preview"
+msgstr ""
+
+#: templates/editor-toolbar.php:5
+msgid "Save"
+msgstr ""
+
+#: templates/page-options-general.php:22
+msgid "Save Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Kodeo Admin UI"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Kodeo Admin UI provides better Admin Usability"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Kodeo"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://kodeo.io"
+msgstr ""

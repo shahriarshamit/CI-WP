@@ -1,0 +1,22 @@
+/*
+Theme Name: Fuseki Child
+Theme URI: 
+Author: W3plan Technologies
+Author URI: http://ci-wp.com/
+Description: A Fuseki child theme for CI-WP platform
+Version: 1.0.1
+Template: fuseki
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: fuseki-child
+Tags: accessibility-ready, custom-header, custom-menu, featured-images, flexible-header, post-formats, rtl-language-support, threaded-comments, translation-ready, grid-layout
+*/
+
+*  {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+@media all and (max-width: 500px) {
+  .custom-logo {display:none;}
+  .search-form {display:none;}
+}

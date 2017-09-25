@@ -1,0 +1,295 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fuseki\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-11 23:59+0000\n"
+"PO-Revision-Date: 2017-07-12 00:07+0000\n"
+"Last-Translator: admin cw <admin.cw@example.org>\n"
+"Language-Team: \n"
+"Language: fr_CA\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: ../fuseki/404.php:23
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../fuseki/404.php:27
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../fuseki/404.php:38
+msgid "Most Used Categories"
+msgstr ""
+
+#. %1$s: smiley
+#: ../fuseki/404.php:57
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: ../fuseki/archive.php:46 ../fuseki/index.php:68 ../fuseki/search.php:49
+msgid "Previous page"
+msgstr ""
+
+#: ../fuseki/archive.php:47 ../fuseki/index.php:69 ../fuseki/search.php:50
+msgid "Next page"
+msgstr ""
+
+#: ../fuseki/archive.php:48 ../fuseki/index.php:70 ../fuseki/search.php:51
+#: ../fuseki/template-parts/content-page.php:26
+#: ../fuseki/template-parts/content.php:49
+msgid "Page"
+msgstr ""
+
+#: ../fuseki/functions-sub.php:169 ../fuseki/functions-sub.php:195
+msgid "View Counter"
+msgstr ""
+
+#: ../fuseki/functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: ../fuseki/functions.php:97
+msgid "Sidebar"
+msgstr ""
+
+#: ../fuseki/functions.php:99
+msgid "Add widgets here."
+msgstr ""
+
+#: ../fuseki/search.php:25
+msgid "Search Results for: "
+msgstr ""
+
+#: ../fuseki/single.php:48
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+
+#: ../fuseki/single.php:53
+msgid "Next"
+msgstr ""
+
+#: ../fuseki/single.php:54
+msgid "Next post:"
+msgstr ""
+
+#: ../fuseki/single.php:56
+msgid "Previous"
+msgstr ""
+
+#: ../fuseki/single.php:57
+msgid "Previous post:"
+msgstr ""
+
+#: ../fuseki/inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. %s: post author.
+#: ../fuseki/inc/template-tags.php:35
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: ../fuseki/inc/template-tags.php:52
+msgid ", "
+msgstr ""
+
+#. 1: list of categories.
+#: ../fuseki/inc/template-tags.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: ../fuseki/inc/template-tags.php:59
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. 1: list of tags.
+#: ../fuseki/inc/template-tags.php:62
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: post title
+#: ../fuseki/inc/template-tags.php:72
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. %s: Name of current post
+#. %s: Name of current post
+#: ../fuseki/inc/template-tags.php:88
+#: ../fuseki/template-parts/content-page.php:38
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: ../fuseki/structure-parts/comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: ../fuseki/structure-parts/comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../fuseki/structure-parts/comments.php:50
+#: ../fuseki/structure-parts/comments.php:71
+msgid "Comment navigation"
+msgstr ""
+
+#: ../fuseki/structure-parts/comments.php:53
+#: ../fuseki/structure-parts/comments.php:74
+msgid "Older Comments"
+msgstr ""
+
+#: ../fuseki/structure-parts/comments.php:54
+#: ../fuseki/structure-parts/comments.php:75
+msgid "Newer Comments"
+msgstr ""
+
+#: ../fuseki/structure-parts/comments.php:88
+msgid "Comments are closed."
+msgstr ""
+
+#: ../fuseki/structure-parts/content-bottom.php:16
+msgid "Output sample data from controller action"
+msgstr ""
+
+#: ../fuseki/structure-parts/content-bottom.php:18
+msgid "Query variables and values sent to controller action by"
+msgstr ""
+
+#: ../fuseki/structure-parts/content-bottom.php:29
+msgid "User login status"
+msgstr ""
+
+#: ../fuseki/structure-parts/content-bottom.php:31
+msgid "CodeIginter helper output"
+msgstr ""
+
+#: ../fuseki/structure-parts/content-bottom.php:33
+msgid "CodeIginter ci_site_url() output"
+msgstr ""
+
+#: ../fuseki/structure-parts/content-bottom.php:35
+msgid "WordPress site_url() output"
+msgstr ""
+
+#: ../fuseki/structure-parts/content-bottom.php:42
+msgid "Admin user session data"
+msgstr ""
+
+#: ../fuseki/structure-parts/content-bottom.php:50
+msgid "CodeIginter query results"
+msgstr ""
+
+#: ../fuseki/structure-parts/content-bottom.php:52
+#: ../fuseki/structure-parts/content-bottom.php:68
+msgid "Code execution time in seconds"
+msgstr ""
+
+#: ../fuseki/structure-parts/content-bottom.php:54
+msgid "WordPress query results"
+msgstr ""
+
+#: ../fuseki/structure-parts/content-top.php:16
+msgid "Leaderboard Ad"
+msgstr ""
+
+#: ../fuseki/structure-parts/disclaimer.php:13
+msgid "Copyright 2017 - "
+msgstr ""
+
+#: ../fuseki/structure-parts/disclaimer.php:15
+msgid " - All rights reserved."
+msgstr ""
+
+#: ../fuseki/structure-parts/disclaimer.php:21
+msgid "Powered by "
+msgstr ""
+
+#: ../fuseki/structure-parts/footer.php:15
+#: ../fuseki/structure-parts/footer.php:24
+#: ../fuseki/structure-parts/footer.php:33
+#: ../fuseki/structure-parts/footer.php:42
+msgid "Title"
+msgstr ""
+
+#: ../fuseki/structure-parts/footer.php:56
+msgid "Subscribe newsletters now"
+msgstr ""
+
+#: ../fuseki/structure-parts/footer.php:62
+msgid "Contact and feedback"
+msgstr ""
+
+#: ../fuseki/structure-parts/header-top.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: ../fuseki/structure-parts/header.php:36
+msgid "First caption"
+msgstr ""
+
+#: ../fuseki/structure-parts/header.php:51
+msgid "Second caption"
+msgstr ""
+
+#: ../fuseki/structure-parts/header.php:66
+msgid "Third caption"
+msgstr ""
+
+#: ../fuseki/template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: ../fuseki/template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../fuseki/template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../fuseki/template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../fuseki/template-parts/content-page.php:22
+#: ../fuseki/template-parts/content.php:45
+msgid "Pages:"
+msgstr ""
+
+#: ../fuseki/template-parts/content.php:34
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
